@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+}
+img {
+    max-width: 100%;
+}
+header {
+    max-width: auto;
+    background-color:  #2F7AA5;
+
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+header p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 64px 0px 16px 64px;
+}
+header nav ul {
+    margin: 0%;
+    padding: 64px 64px 0px 16px;
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    font-size: 24px;
+}
+header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);;
+}
+header nav{
+    color: rgb(255, 255, 255);
+    
+}
+header nav a:hover {
+    background-color: #8eadd1;
+    padding: 5%;
+    border-radius: 16px;
+    
+}
+header p a:hover {
+    text-decoration: underline;
+
+}
+section.info {
+    background-color: #2F7AA5;
+    padding: 5%;
+    margin-top: 64px;
+    
+}
+section.info h1 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    max-width: 900px;
+    font-size: 100px;
+    margin: 0
+}
+section.info span {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    max-width: 900px;
+    font-size: 80px;
+    margin: 0 
+}
+section.paragraph p {
+    font-size: 24px;
+    text-align: left;
+    display: block;
+    padding: 80px 0 16px 280px;
+    max-width: 500px;
+    margin: 0%;
+}
+section.paragraph span {
+    color: #2F7AA5;
+    font-size: 24px;
+    font-weight: bold;
+}
+section.card h6 {
+    max-width: 400px;
+    display: block;
+    justify-content: right;
+    position: absolute;
+    padding-left: 800px;
+    margin: 100px;
+}
+footer {
+    background-color: #2F7AA5;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 32px 0 16px 0;
+    font-size: 18px;
+    margin: 0;
+}
